@@ -21,7 +21,7 @@
 
   <category>Custom Languages</category>
   <version>SNAPSHOT</version>
-  <idea-version since-build="201.7223" until-build="203.*"/>
+  <idea-version since-build="211.6222.4" until-build="211.*"/>
 
   <depends>Dart</depends>
   <depends>Git4Idea</depends>
@@ -34,7 +34,7 @@
 
   <!-- Contributes Android Studio-specific features and implementations. -->
   <!--suppress PluginXmlValidity -->
-  <depends optional="true" config-file="studio-contribs.xml">com.intellij.modules.androidstudio</depends>
+  <depends optional="true" config-file="studio-contribs.xml">com.android.tools.apk</depends>
 
   <change-notes>
     <![CDATA[
